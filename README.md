@@ -23,7 +23,9 @@ The implementation provided in this repository includes the following features:
 - Rank: Determining the position of an element within the data structure.
 - Select: Selecting an element retrieves the value at a specific position or order within a data structure.
 
-The AVL tree class provides methods for performing these operations and maintaining the balance of the tree.
+The AVL tree data structure provides efficient operations with a logarithmic time complexity for most operations, thanks to its self-balancing property. All of the operations above have a logarithmic time complexity of O(log n) since the AVL tree maintains balance during these operations. However, the AVL to array conversion operation, performed using an in-order traversal, has a linear time complexity of O(n) since it requires visiting all nodes in the tree.
 
+## License
 
+This AVL tree implementation is licensed under the MIT License. See the LICENSE file for more details.
 
